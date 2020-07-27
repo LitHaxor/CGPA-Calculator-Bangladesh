@@ -1,10 +1,16 @@
-function printDiv(divName) {
-    var printContents = document.getElementById(divName).innerHTML;
-    var originalContents = document.body.innerHTML;
-  
-    document.body.innerHTML = printContents;
-  
-    window.print();
-  
-    document.body.innerHTML = originalContents;
+function printDiv(el){
+  var restorepage = $('body').html();
+  var printcontent = $('#' + el).clone();
+  var enteredtext = $('#text').val();
+  $('body').empty().html(printcontent);
+  window.print();
+  $('body').html(restorepage);
+  $('#text').html(enteredtext);
   }
+
+
+
+  $(".reset").click(function() {
+    $(this).closest('form').find("input[type=text], textarea").val("");
+});
+
