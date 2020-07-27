@@ -4,3 +4,18 @@
 .navbar-light{
     color: aliceblue;
 }
+.block{
+    margin: 0px;
+    padding: 0px;
+    height: 60px;
+}
+.grade-select{
+    height: 39px;
+    margin: 4px;
+    padding-bottom: 1px;
+    margin-bottom: 13px;
+}
+.btn-toolbar{
+    margin: 1px;
+    padding: -5px;
+}
