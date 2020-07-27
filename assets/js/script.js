@@ -82,3 +82,15 @@ $(".btnc").on("click", function () {
     $('html, body').animate({scrollTop:$(document).height()}, 'slow');
     return false;
 });
+
+
+function printDiv(divName) {
+  var printContents = document.getElementById(divName).innerHTML;
+  var originalContents = document.body.innerHTML;
+
+  document.body.innerHTML = printContents;
+
+  window.print();
+
+  document.body.innerHTML = originalContents;
+}
