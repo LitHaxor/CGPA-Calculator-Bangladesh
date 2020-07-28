@@ -54,7 +54,7 @@
                                         <div class="input-group-prepend"><span class="input-group-text ">Credit</span></div><input class="form-control tcredit" type="text" name="credit" value="0" placeholder="credit">
                                         <div class="input-group-append"></div>
                                     </div>
-                                    <h3 class="text-left">Current Semester<small></small></h3>
+                                    <h3 class="text-left">Current Semester<button style="margin-left: 20px;" class="btn btn-danger"  onclick="window.location.reload()" type="button"><i class="icon ion-ios-reload"></i><span class="d-none d-md-inline"> reset</span></button></h3>
                                     <div class="form-group block d-inline-flex flex-row justify-content-center align-items-center" >
                                         <div class="btn-group" role="group" ></div>
                                             <div class="input-group-prepend" style="margin-bottom: 10px;"><span class="input-group-text d-none d-md-block" >Course</span></div><input class="form-control course col-3" style="margin-bottom: 10px;" type="text" placeholder="course">
@@ -88,8 +88,8 @@
                                         <button class="btn btn-success" type="button">CGPA<span class="badge badge-danger"><span id="gpa" > 0.0</span></span></button>
                                     </div>
                                     <div class="btn-group" role="group">
-                                        <button class="btn btn-info" type="button">Credit<span class="badge badge-primary"><span id="credit"> 0</span></span></button><button class="btn btn-outline-success" style="margin-left: 5px; color: white;" onclick="printDiv('printable')" type="button"><i class="icon ion-ios-printer-outline"></i><span class="d-none d-md-inline"> print</span></button>
-                                        <button class="btn btn-outline-danger" style=" color: white;" onclick="resetDiv('printable')" type="button"><i class="icon ion-ios-reload"></i><span class="d-none d-md-inline"> reset</span></button>
+                                        <button class="btn btn-info" type="button">Credit<span class="badge badge-primary"><span id="credit"> 0</span></span></button>
+                                        <button class="btn btn-danger" style="margin-left: 5px; color: white;" onclick="printDiv('printable')" type="button"><i class="icon ion-ios-printer-outline"></i><span class="d-none d-md-inline"> print</span></button>
                                     </div>
                                 </div>
                             </div>
