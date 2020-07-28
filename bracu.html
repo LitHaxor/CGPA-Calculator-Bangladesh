@@ -43,7 +43,7 @@
                             <div class="col-md-12 outer-box" id="printable">
                                 <div class="inner-box">
                                     <h1 class="text-center">BRACU CGPA<small></small></h1>
-                                    <h3 class="text-left">Total Semester<small></small></h3>
+                                    <h3 class="text-left">Completed Semester<small></small></h3>
                                     <h3 class="text-center"><small></small></h3>
                                     <div class="input-group" style="width: 40%;">
                                         <div class="input-group-prepend"><span class="input-group-text ">CGPA</span></div><input class="form-control cgpa" type="text" name="CGPA" value="0.00" placeholder="cgpa">
@@ -62,8 +62,24 @@
                                             <div class="input-group-prepend" style="margin-bottom: 10px;"><span class="input-group-text" >Credit</span></div><input class="form-control units col-3" style="margin-bottom: 10px;" type="text">
                                             <div class="input-group-append"></div>
                                        
-                                        <section></section><select class="grade-select" ><option value="" selected="">Select CGPA</option><option value="4.0">A+</option><option value="3.75">A</option><option value="3.50">B+</option><option value="3.25">B</option><option value="3.00">C+</option><option value="2.75">C</option><option value="2.50">D+</option><option value="2.25">D</option><option value="0">F</option></select>
-                                        <section></section>
+                                            <select class="grade-select" >
+		
+                                                <option value="" selected="">Select Grade</option>
+                                                <!--Change grades here-->
+                                                <option value="4.0">A (90-100)</option>
+                                                <option value="3.7">A- (85-89)</option>
+                                                <option value="3.3">B+ (80-84)</option>
+                                                <option value="3.0">B (75-79)</option>
+                                                <option value="2.7">B- (70-74)</option>
+                                                <option value="2.3">C+ (65-69)</option>
+                                                <option value="2.0">C (60-64)</option>
+                                                <option value="1.7">C- (57-60)</option>
+                                                <option value="1.3">D+ (55-57)</option>
+                                                <option value="1.0">D (52-55)</option>
+                                                <option value="0.7">D- (50-52)</option>
+                                                <option value="0">F (0-49)</option>
+                                                
+                                            </select>          
                                     </div>
                                 </div>
                                
@@ -73,7 +89,8 @@
                                         <button class="btn btn-success" type="button">CGPA<span class="badge badge-danger"><span id="gpa" > 0.0</span></span></button>
                                     </div>
                                     <div class="btn-group" role="group">
-                                        <button class="btn btn-info" type="button">Credit<span class="badge badge-primary"><span id="credit"> 0</span></span></button><button class="btn btn-danger" onclick="printDiv('printable')" type="button"><i class="icon ion-ios-printer-outline"></i><span class="d-none d-md-inline"> print</span></button>
+                                        <button class="btn btn-info" type="button">Credit<span class="badge badge-primary"><span id="credit"> 0</span></span></button><button class="btn btn-outline-success" style="margin-left: 5px; color: white;" onclick="printDiv('printable')" type="button"><i class="icon ion-ios-printer-outline"></i><span class="d-none d-md-inline"> print</span></button>
+                                        <button class="btn btn-outline-danger" style=" color: white;" onclick="resetDiv('printable')" type="button"><i class="icon ion-ios-reload"></i><span class="d-none d-md-inline"> reset</span></button>
                                     </div>
                                 </div>
                             </div>

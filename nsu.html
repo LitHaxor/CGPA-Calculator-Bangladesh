@@ -62,8 +62,22 @@
                                             <div class="input-group-prepend" style="margin-bottom: 10px;"><span class="input-group-text" >Credit</span></div><input class="form-control units col-3" style="margin-bottom: 10px;" type="text">
                                             <div class="input-group-append"></div>
                                        
-                                        <section></section><select class="grade-select" ><option value="" selected="">Select Grade</option><option value="4.0">A+ (93-100)</option><option value="3.7">A (90-92)</option><option value="3.3">B (87-89)</option><option value="2.7">B- (83-86)</option><option value="2.3">C+ (77-79)</option><option value="2.0">C (73-76)</option><option value="1.7">C- (70-72) </option><option value="1.3">D+ (67-69)</option><option value="1.0">D (60-66)</option><option value="0">F (59-0)</option></select>
-                                        <section></section>
+                                        
+                                        <select class="grade-select" ><option value="" selected="">Select Grade</option>
+                                            <option value="4.0">A+ (93-100)</option>
+                                            <option value="3.7">A (90-92)</option>
+                                            <option value="3.3">B+ (87-89)</option>
+                                            <option value="3.0">B (83-86)</option>
+                                            <option value="2.7">B- (80-82)</option>
+                                            <option value="2.3">C+ (77-79)</option>
+                                            <option value="2.0">C (73-76) </option>
+                                            <option value="1.7">C- (70-72)</option>
+                                            <option value="1.3">D+ (67-69)</option>
+                                            <option value="1.0">D (60-66)</option>
+                                            <option value="0">F (0-59)</option>
+                                        
+                                        </select>
+                                        
                                     </div>
                                 </div>
                                 <div class="btn-toolbar" >
@@ -72,7 +86,8 @@
                                         <button class="btn btn-success" type="button">CGPA<span class="badge badge-danger"><span id="gpa" > 0.0</span></span></button>
                                     </div>
                                     <div class="btn-group" role="group">
-                                        <button class="btn btn-info" type="button">Credit<span class="badge badge-primary"><span id="credit"> 0</span></span></button><button class="btn btn-danger" onclick="printDiv('printable')" type="button"><i class="icon ion-ios-printer-outline"></i><span class="d-none d-md-inline"> print</span></button>
+                                        <button class="btn btn-info" type="button">Credit<span class="badge badge-primary"><span id="credit"> 0</span></span></button><button class="btn btn-outline-success" style="margin-left: 5px; color: white;" onclick="printDiv('printable')" type="button"><i class="icon ion-ios-printer-outline"></i><span class="d-none d-md-inline"> print</span></button>
+                                        <button class="btn btn-outline-danger" style=" color: white;" onclick="resetDiv('printable')" type="button"><i class="icon ion-ios-reload"></i><span class="d-none d-md-inline"> reset</span></button>
                                     </div>
                                 </div>
                             </div>

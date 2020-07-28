@@ -5,7 +5,7 @@
 <img src="https://img.icons8.com/all/500/gpa-calculator.png" height="200" />
 
 
- ![](https://img.shields.io/github/issues/lithaxor/Bangladeshi-university-cgpa-calculator) ![](https://img.shields.io/badge/Version-1.0.4-blue)
+ ![](https://img.shields.io/github/issues/lithaxor/Bangladeshi-university-cgpa-calculator) ![](https://img.shields.io/badge/Version-1.0.5-blue)
 
 
 
