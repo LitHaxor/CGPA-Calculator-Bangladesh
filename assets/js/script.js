@@ -27,18 +27,32 @@ $oBox.on("change", ".grade-select", function() {
 
 var points =0;
 var credit = 0;
-$(".cgpa").on("change",function(){
+var ptr=0;
+$(".cgpa").on("keyup",function(){
   points = parseFloat($('.cgpa').val() || 0);
   $gpa.text(getTotal());
   $credit.text(getcredit());
 });
-$('.tcredit').on("change", function(){
+$('.tcredit').on("keyup", function(){
   credit = parseFloat($('.tcredit').val() || 0);
-  points = points*credit;
-    $gpa.text(getTotal());
+  ptr = points*credit;
+  $gpa.text(getTotal());
   $credit.text(getcredit());
 
 })
+$('.tcredit').on("change", function(){
+  credit = parseFloat($('.tcredit').val() || 0);
+  ptr = points*credit;
+  $gpa.text(getTotal());
+  $credit.text(getcredit());
+})
+$('.cgpa').on("change", function(){
+  points = parseFloat($('.cgpa').val() || 0);
+  ptr = points*credit;
+  $gpa.text(getTotal());
+  $credit.text(getcredit());
+})
+
 
 console.log("points:" + points);
 console.log("credit:" + credit);
@@ -49,7 +63,7 @@ function getTotal() {
   
   var credits = 0;
   var point =0;
-  point = points;
+  point = ptr;
   credits = credit;
   
   $(".units").each(function() {
