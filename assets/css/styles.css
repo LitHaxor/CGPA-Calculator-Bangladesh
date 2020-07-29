@@ -24,3 +24,14 @@
 #menu-toggle{
     color: aliceblue;
 }
+.navbar-light {
+    background-color:rgba(31, 30, 31, 0.418) ;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+   #navi {
+        background-color: rgba(66, 34, 65, 0.39);
+        text-align: center;
+    }
+}
