@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>AIUB || CGPA Calculator</title>
+    <title>Compare || CGPA Calculator</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
@@ -46,21 +46,40 @@
                             <div class="col-md-12 outer-box" id="printable">
                                 <div class="inner-box">
                                     <h1 class="text-center">Compare GPA</h1>
-                                    <p class="text-center text-warning">Parallelly compare two university GPA and grading system</p>
+                                    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                        <strong>Awknowledgement: </strong>Every Univeristies handles grading policy differently, comparing GPA with them is obsolete! This tool is usefull for credit transfer/conversion.
+                                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
                                     <div class="row justify-content-sm-center justify-content-md-start ">
                                         <div class="col-6 col-md-2">
-                                            <select  class="custom-select-sm badge-primary" name="university" id="university">
+                                            <select  class="custom-select-xl offset-md-2 badge-primary" name="university" id="university">
                                                 <option value="0">Univeristy 1</option>
                                                 <option value="1">AIUB</option>
                                                 <option value="2">NSU</option>
+                                                <option value="3">IUB</option>
+                                                <option value="4">UIU</option>
+                                                <option value="5">Public Univeristy</option>
+                                                <option value="6">DIU</option>
+                                                <option value="7">AUST</option>
+                                                <option value="8">EWU</option>
+                                                <option value="9">BRACU</option>
                                             </select>
                                         </div>
                                         
-                                        <div class="col-6 col-md-2">
-                                            <select class="custom-select-sm badge-success" name="university2" id="university2">
-                                                <option value="0">Univeristy 2</option>
+                                        <div class="col-6  col-md-2">
+                                            <select class="custom-select-xl badge-success" name="university2" id="university2">
+                                                <option value="0">Univeristy 1</option>
                                                 <option value="1">AIUB</option>
                                                 <option value="2">NSU</option>
+                                                <option value="3">IUB</option>
+                                                <option value="4">UIU</option>
+                                                <option value="5">Public Univeristy</option>
+                                                <option value="6">DIU</option>
+                                                <option value="7">AUST</option>
+                                                <option value="8">EWU</option>
+                                                <option value="9">BRACU</option>
                                             </select>
                                         </div>
                                     </div>
