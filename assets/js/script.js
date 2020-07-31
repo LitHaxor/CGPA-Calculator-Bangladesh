@@ -93,7 +93,7 @@ function getcredit() {
 
 $(".btnc").on("click", function () {
   
-    $('html, body').animate({scrollTop:$(document).height()}, 'slow');
+   
     return false;
 });
 

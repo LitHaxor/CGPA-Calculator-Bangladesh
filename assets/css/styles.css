@@ -36,8 +36,9 @@
     }
 }
 body{
-        height: 100vh;
-        background: #475d62 url(../../assets/img/star-sky.jpg);
-        background-size: 100%;
+    height: 1000px;
+    background: #475d62 url(../../assets/img/star-sky.jpg);
+    background-size: cover;
+    position: relative;
         
 }
