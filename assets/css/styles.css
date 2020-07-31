@@ -35,3 +35,9 @@
         text-align: center;
     }
 }
+body{
+        height: 100vh;
+        background: #475d62 url(../../assets/img/star-sky.jpg);
+        background-size: 100%;
+        
+}
