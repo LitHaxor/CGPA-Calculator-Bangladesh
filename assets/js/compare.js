@@ -348,7 +348,7 @@ function getGrade(id, marks) {
        return grades = 0;
       }   
   }
-  if( id === 10 && !isNaN(marks))
+  if( id === 11 && !isNaN(marks))
   {
     
     var grades = 0;
