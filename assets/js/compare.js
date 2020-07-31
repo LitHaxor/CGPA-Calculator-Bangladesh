@@ -69,13 +69,10 @@ function getGrade(id, marks) {
       else if(marks <= 70 && marks >=72){
         return grades = 1.7;
       }
-      else if(marks < 69 && marks >=67){
-        return grades = 1.7;
-      }
-      else if(marks < 72 && marks >=70){
+      else if(marks <= 69 && marks >=67){
         return grades = 1.3;
       }
-      else if(marks < 67 && marks >=69){
+      else if(marks < 67 && marks >=65){
         return grades = 1.0;
       }
       else {
@@ -85,7 +82,7 @@ function getGrade(id, marks) {
   /**For IUB */
   if( id === 3 && !isNaN(marks))
   {
-    
+    alert("Iub grade is not finalized");
     var grades = 0;
     if (marks <= 100 && marks >= 90 ){
        return grades = 4.0;
@@ -351,6 +348,45 @@ function getGrade(id, marks) {
        return grades = 0;
       }   
   }
+  if( id === 10 && !isNaN(marks))
+  {
+    
+    var grades = 0;
+    if (marks <= 100 && marks >= 93 ){
+       return grades = 4.0;
+      }
+      else if(marks <= 92 && marks >=90){
+          return grades = 3.7;
+      }
+      else if(marks <= 89 && marks >=87){
+          return grades = 3.3;
+      }
+      else if(marks <= 86 && marks >=83){
+        return grades = 3.0;
+      }
+      else if(marks <= 82 && marks >=80){
+        return grades = 2.7;
+      }
+      else if(marks <= 79 && marks >=77){
+      return grades = 2.3;
+      }
+      else if(marks <= 76 && marks >= 73){
+        return grades = 2.0;
+      }
+      else if(marks <= 70 && marks >=72){
+        return grades = 1.7;
+      }
+      else if(marks <= 69 && marks >=67){
+        return grades = 1.3;
+      }
+      else if(marks < 67 && marks >=65){
+        return grades = 1.0;
+      }
+      else {
+       return grades = 0;
+      }   
+  }
+
 }
 
 function getName(id){
@@ -381,7 +417,16 @@ function getName(id){
   else if(id === 9){
     return "BRACU";
   }
+  else if(id === 10){
+    alert("coming soon");
+    return "MIT 5.0 scale";
+  }
+  else if(id === 11){
+    
+    return "US 4.0 scale Harvard";
+  }
   else {
+    
     return "Select University!";
   }
 }
