@@ -1,7 +1,8 @@
 var $oBox = $('.outer-box');
 var $gpa = $('#gpa');
 var $credit = $('#credit');
-
+var cr=[];
+var cg=[];
 var $result = $('.result').hide();
 
 $('.btnc').click(function() {
@@ -9,19 +10,23 @@ $('.btnc').click(function() {
 });
 
 $oBox.on('keyup', '.units', function() {
+  updateChart();
   $gpa.text(getTotal());
 });
 $oBox.on('keyup', '.units', function() {
+  updateChart();
   $credit.text(getcredit());
 });
 
 
 $oBox.on("change", ".grade-select", function() {
   $gpa.text(getTotal());
+  updateChart();
   $result.is(":hidden") && $result.show();
 });
 $oBox.on("change", ".grade-select", function() {
   $credit.text(getcredit());
+  updateChart();
   $result.is(":hidden") && $result.show();
 });
 
@@ -54,8 +59,6 @@ $('.cgpa').on("change", function(){
 })
 
 
-console.log("points:" + points);
-console.log("credit:" + credit);
 
 
 
@@ -70,7 +73,9 @@ function getTotal() {
     var $this = $(this);
     if(!isNaN($this.val()) && !isNaN($this.parent().find('.grade-select').val())) {
       point += parseFloat($this.val() || 0) * parseFloat($this.parent().find('.grade-select').val() || 0);
-      credits += parseFloat($this.val() || 0)
+      credits += parseFloat($this.val() || 0);
+      cg.push(parseFloat($this.val() || 0) * parseFloat($this.parent().find('.grade-select').val() || 0));
+      cr.push(parseFloat($this.val() || 0));
     }
   });
   return  (point/credits).toFixed(2);
@@ -86,6 +91,8 @@ function getcredit() {
     if(!isNaN($this.val()) && !isNaN($this.parent().find('.grade-select').val())) {
       point += parseFloat($this.val() || 0) * parseFloat($this.parent().find('.grade-select').val() || 0);
       credits += parseFloat($this.val() || 0)
+      cg.push(parseFloat($this.val() || 0) * parseFloat($this.parent().find('.grade-select').val() || 0));
+      cr.push(parseFloat($this.val() || 0));
     }
   });
   return  (credits);
@@ -97,4 +104,29 @@ $(".btnc").on("click", function () {
     return false;
 });
 
+var ctx = document.getElementById('myChart').getContext('2d');
+var chart = new Chart(ctx, {
+    // The type of chart we want to create
+    type: 'line',
 
+    // The data for our dataset
+    data: {
+        labels: getcredit(),
+        datasets: [{
+            label: 'CGPA',
+            backgroundColor: 'rgb(255, 99, 132)',
+            borderColor: 'rgb(255, 99, 132)',
+            data: cg,
+        }]
+    },
+
+    // Configuration options go here
+    options: {}
+});
+
+
+function updateChart ()
+{
+  chart.data.datasets[0].data = cg;
+  chart.update();
+}

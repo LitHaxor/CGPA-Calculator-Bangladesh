@@ -1,49 +1,205 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>CGPA CALCULATOR</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
-    <link rel="stylesheet" href="assets/css/gradient-navbar-1.css">
-    <link rel="stylesheet" href="assets/css/gradient-navbar.css">
-    <link rel="stylesheet" href="assets/css/Login-Form-Dark.css">
-    <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGPA Calculator</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
-
 <body>
-    <div class="login-dark">
-        <nav class="navbar navbar-light navbar-expand-md fixed-top navigation-clean-button" id="navi">
-            <div class="container"><a class="navbar-brand" href="#" style="color: rgb(255,255,255);"><i class="icon ion-calculator" style="margin-left: 30px; width: 60px; height: 30px;"></i></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1" style="text-align: center;border-color: rgb(255,255,255);"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon" id="navtog"></span></button>
-                <div class="collapse navbar-collapse" id="navcol-1" style="background-color: rgba(34, 34, 34, 0.0);">
-                    <ul class="nav navbar-nav mr-auto">
-                        <li class="nav-item" role="presentation"><a class="nav-link active" href="#" style="color: rgb(247,247,247);">Welcome</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="feedback.html" style="color: rgb(255,255,255);">Report</a></li>
-                        <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#" style="color: rgb(255,255,255);">Start App</a>
-                            <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="aiub.html">Calculate </a><a class="dropdown-item" role="presentation" href="compare.html">Compare</a><a class="dropdown-item" role="presentation" href="aiub.html">More..</a></div>
-                        </li>
-                    </ul><span class="navbar-text actions"> <a class="btn btn-light action-button" role="button" href="https://github.com/LitHaxor/Bangladeshi-university-cgpa-calculator"><i class="icon ion-social-github"></i> Contribute</a></span></div>
-    </div>
-    </nav>
-    <form name="report" method="POST" data-netlify="true">
-        <h2 class="sr-only"></h2>
-        <div class="d-flex justify-content-center align-items-center illustration" style="padding: 0;"><i class="icon ion-calculator d-md-flex justify-content-md-center align-items-md-center"></i></div>
-        <h3 class="text-center" style="padding: 5;margin: 5;">Predict or Calculate CGPA</h3>
-        <div class="dropdown d-flex d-sm-flex justify-content-center align-items-center align-self-center"><button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button">University</button>
-            <div class="dropdown-menu" role="menu">  <a class="dropdown-item" role="presentation" href="aiub.html">AIUB</a><a class="dropdown-item" role="presentation" href="nsu.html">NSU</a><a class="dropdown-item" role="presentation" href="bracu.html">BRACU</a><a class="dropdown-item" role="presentation"
-                    href="iub.html">IUB</a><a class="dropdown-item" role="presentation" href="uiu.html">UIU</a><a class="dropdown-item" role="presentation" href="diu.html">DIU</a><a href="compare.html" class="dropdown-item" role="presentation">Compare GPA</a><a class="dropdown-item" role="presentation" href="du.html">Public University</a><a class="dropdown-item" role="presentation" href="aiub.html">More..</a></div>
+    <!--Navbar Properties-->
+        <header > 
+            <nav class="navbar navbar-expand-lg fixed-top navbar-light frosted">
+                <a class="navbar-brand" href="../../index.html">CGPA Calculator</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Tools</a>
+                    </li>
+                </ul>
+                </div>
+            </nav>
+        </header>
+      <!--End navbar Properties-->
+        
+      <!--jumbotron-->
+      <div class="jumbotron jumbotron-fluid content-2">
+        <div class="container">
+          <h1 class="display-4">CGPA Calculator </h1>
+          <p class="lead">This is an open source tool  for calculating CGPA and semster cost for the Universities in Bangldesh.</p>
+          <button type="button" class="btn btn-dark">Contribute GitHub</button>
+          <button type="button" class="btn btn-info">Compare CGPA</button>
         </div>
-        <div class="form-group"><a class="btn btn-primary btn-block" role="button" href="assets/files/app-release.apk" download="CGPA-Calculator-2.1.1.apk">Download Mobile APP</a></div><a class="forgot" href="https://github.com/LitHaxor/Bangladeshi-university-cgpa-calculator">CGPA CALCULATOR BD 1.2.1 - 2020&nbsp;</a></form>
-    </div>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+      </div>
+      <!--Ending Jumbotron-->
+      
+      <!--Starting main-->
+      <main>
+          <div class="container">
+                <div class="university-items">
+                    <div class="row">
+                        <div class="col-sm-2 col-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img class= " img-fluid uni-logo "  src="https://upload.wikimedia.org/wikipedia/en/4/45/AIUB_whole_logo.png" alt="">
+                                    <h4 class="card-title text-center">AIUB</h4>
+                                    <div class="text-center">
+                                        <p><b>Calculator</b></p>
+                                        <a href="uv/cgpa/aiub.html" class="card-link">CGPA </a>
+                                        <a href="#" class="card-link">Cost </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2 col-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img class= "img-fluid uni-logo" src="https://upload.wikimedia.org/wikipedia/commons/5/5c/North-South-University-logo-03.png" alt="">
+                                    <h4 class="card-title text-center">NSU</h4>
+                                    <div class="text-center">
+                                        <p><b>Calculator</b></p>
+                                        <a href="uv/cgpa/nsu.html" class="card-link">CGPA </a>
+                                        <a href="#" class="card-link">Cost </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2 col-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img class= " img-fluid uni-logo"  src="https://upload.wikimedia.org/wikipedia/en/4/4d/Independent_University%2C_Bangladesh_logo.png" alt="">
+                                    <h4 class="card-title text-center">IUB</h4>
+                                    <div class="text-center">
+                                        <p><b>Calculator</b></p>
+                                        <a href="#" class="card-link">CGPA </a>
+                                        <a href="#" class="card-link">Cost </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2 col-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img class= " img-fluid uni-logo"  src="https://upload.wikimedia.org/wikipedia/en/4/46/BRAC_University_logo.png" alt="">
+                                    <h4 class="card-title text-center">BRACU</h4>
+                                    <div class="text-center">
+                                        <p><b>Calculator</b></p>
+                                        <a href="#" class="card-link">CGPA </a>
+                                        <a href="#" class="card-link">Cost </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2 col-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img class= " img-fluid uni-logo"  src="https://scontent.fdac16-1.fna.fbcdn.net/v/t1.0-9/107095282_3260554454170074_3447416116421837976_o.jpg?_nc_cat=107&ccb=2&_nc_sid=09cbfe&_nc_ohc=JSOISSuB6WMAX_EhFvq&_nc_ht=scontent.fdac16-1.fna&oh=4bf90942d82d6cdc05ca27d5f4cfea7c&oe=600F7159" alt="">
+                                    <h4 class="card-title text-center">DIU</h4>
+                                    <div class="text-center">
+                                        <p><b>Calculator</b></p>
+                                        <a href="#" class="card-link">CGPA </a>
+                                        <a href="#" class="card-link">Cost </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2 col-6">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img class= " img-fluid uni-logo"  src="https://lh3.googleusercontent.com/proxy/URESRuSWjsYUutDaFw6cRWLRBw8tlhwZOmmwVEQm-ZKfePvjftjTJsQVhdJlML7WF68qSajG0FUwsRCGunHCHijIzcCIdkEJjLuX8mvGEZ1BSwR29K5kfg" alt="">
+                                    <h4 class="card-title text-center">UIU</h4>
+                                    <div class="text-center">
+                                        <p><b>Calculator</b></p>
+                                        <a href="#" class="card-link">CGPA </a>
+                                        <a href="#" class="card-link">Cost </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                    </div>
+                </div>
+          </div>
+      </main> <!--ending main content-->
+      <footer class="bg-dark text-white  footer-content text-lg-start">
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Contribute to Opensource</h5>
+              <p>
+               Contribute to the most amaizing usefull tools and create a better
+               community arround us. 
+              </p>
+            </div>
+            <!--Grid column-->
+      
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Projects</h5>
+      
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 4</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+      
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase mb-0">Univeristy</h5>
+      
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!" class="text-white">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 2</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 4</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+         Open Source ❤ LITHAXOR
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/bootstrap.min.js"></script>
+      <script src="assets/js/scirpt.js"></script>
 </body>
 
 </html>
