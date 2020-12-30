@@ -80,13 +80,11 @@ class CalcApp extends React.Component {
 
         function getcredit() {
         var credits = 0;
-        var point =0;
-        point = points;
+    
         credits = credit;
         $(".units").each(function() {
             var $this = $(this);
             if(!isNaN($this.val()) && !isNaN($this.parent().find('.grade-select').val())) {
-            point += parseFloat($this.val() || 0) * parseFloat($this.parent().find('.grade-select').val() || 0);
             credits += parseFloat($this.val() || 0);
             }
         });
