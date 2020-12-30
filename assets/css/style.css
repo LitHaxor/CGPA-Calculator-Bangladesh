@@ -27,3 +27,6 @@
     background: rgb(5,103,242);
     background: linear-gradient(90deg, rgba(5,103,242,0.4389765549774597) 0%, rgba(26,246,197,1) 100%);
 }
+.card-space{
+    padding-bottom: 10px;
+}
