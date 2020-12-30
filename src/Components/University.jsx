@@ -14,7 +14,7 @@ const University = (props) =>
                         <div className="text-center">
                             <p><b>Calculator</b></p>
                             <a className="card-link" href={`/cgpa/${university._name}`}>CGPA</a>
-                            <a href="" className="card-link">Cost</a>
+                            <a href="/" className="card-link">Cost</a>
                         </div>
                     </div>
                 </div>
