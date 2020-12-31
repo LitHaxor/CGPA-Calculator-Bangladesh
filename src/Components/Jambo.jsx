@@ -1,5 +1,4 @@
 import React from 'react';
-
 const Jambo = (props) => {
     return(
         <div>
@@ -7,8 +6,10 @@ const Jambo = (props) => {
         <div class="container">
           <h1 class="display-4"> {props.header} </h1>
           <p class="lead">{props.message}</p>
-          <button type="button" class="btn btn-dark">Contribute GitHub</button>
-          <button type="button" class="btn btn-info">Compare CGPA</button>
+          <div className="row">
+          <a  class="btn btn-dark col-2" href="https://github.com/LitHaxor/CGPA-Calculator-Bangladesh">Contribute to GitHub</a>
+          <a href="/" class="btn btn-info col-2">Compare CGPA</a>
+          </div>
         </div>
       </div>
         </div>
