@@ -16,7 +16,7 @@ const CGPAScreen = (props) =>
     return(
         <div>
             <Nav/>
-            <Jumbo header={university.name} message={university.description} />
+            <Jumbo header={university.header} message={university.description} />
             <Calc points={university.points} grades={university.grades}/>
             <Footer></Footer>
         </div>
