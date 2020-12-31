@@ -7,8 +7,8 @@ const Jambo = (props) => {
           <h1 class="display-4"> {props.header} </h1>
           <p class="lead">{props.message}</p>
           <div className="row">
-          <a  class="btn btn-dark col-2" href="https://github.com/LitHaxor/CGPA-Calculator-Bangladesh">Contribute to GitHub</a>
-          <a href="/" class="btn btn-info col-2">Compare CGPA</a>
+          <a  class="btn btn-dark " href="https://github.com/LitHaxor/CGPA-Calculator-Bangladesh">Contribute to GitHub</a>
+          <a href="/" class="btn btn-info ">Compare CGPA</a>
           </div>
         </div>
       </div>
