@@ -606,7 +606,7 @@ class CompareApp extends React.Component
                        <div className="row ">
                             <div className="col-4 col-md-3">
                                 <div className="card">
-                                    <div className="card-header bg-primary"><h5 className="text-white text-center" id="universtyname0"> University 1</h5></div>
+                                    <div className="card-header bg-primary"><p className="text-white text-center" id="universtyname0"> University 1</p></div>
                                     <div className="card-body">
                                         <h5 className="text-dark text-center">GPA</h5>
                                         <h2 className="text-danger text-center" id="gpa">0.0</h2>
@@ -615,7 +615,7 @@ class CompareApp extends React.Component
                             </div>
                             <div className="col-4 col-md-3">
                                 <div className="card">
-                                    <div className="card-header bg-success"><h5 className="text-white text-center" id="universtyname0"> Credit</h5></div>
+                                    <div className="card-header bg-success"><p className="text-white text-center" id="universtyname0"> Credit</p></div>
                                     <div className="card-body">
                                         <h5 className="text-dark text-center">Credit</h5>
                                         <h2 className="text-danger text-center" id="credit">0</h2>
@@ -624,7 +624,7 @@ class CompareApp extends React.Component
                             </div>
                             <div className="col-4 col-md-3">
                                 <div className="card">
-                                    <div className="card-header bg-info"><h5 className="text-white text-center" id="universtyname1"> University 2</h5></div>
+                                    <div className="card-header bg-info"><p className="text-white text-center" id="universtyname1"> University 2</p></div>
                                     <div className="card-body">
                                         <h5 className="text-dark text-center">GPA</h5>
                                         <h2 className="text-danger text-center" id="gpa2">0.0</h2>
