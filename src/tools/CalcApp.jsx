@@ -161,7 +161,7 @@ class CalcApp extends React.Component {
     render() {
         return(
             <div>
-            <div className="outer-box container"> 
+            <div className="outer-box container content-2"> 
             <div className="card content-2">
                    <div className="card-header bg-primary"><h3 className="text-white">Completed Semester</h3></div>
                    <div className="card-body">

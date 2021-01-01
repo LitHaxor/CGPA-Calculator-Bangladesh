@@ -8,7 +8,7 @@ const Jambo = (props) => {
           <p class="lead">{props.message}</p>
           <div className="row">
           <a  class="btn btn-dark " href="https://github.com/LitHaxor/CGPA-Calculator-Bangladesh">Contribute to GitHub</a>
-          <a href="/" class="btn btn-info ">Compare CGPA</a>
+          <a href="/compare" class="btn btn-info ">Compare CGPA</a>
           </div>
         </div>
       </div>

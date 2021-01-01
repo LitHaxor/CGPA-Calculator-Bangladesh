@@ -1,7 +1,7 @@
 import React from 'react';
-import Nav from '../Components/navbar';
+
 import Jumbo from '../Components/Jambo';
-import Footer from '../Components/footer';
+
 import Calc from '../tools/CalcApp';
 import unidata from '../unidata';
 const CGPAScreen = (props) =>
@@ -15,10 +15,10 @@ const CGPAScreen = (props) =>
     }
     return(
         <div>
-            <Nav/>
+            
             <Jumbo header={university.header} message={university.description} />
             <Calc points={university.points} grades={university.grades}/>
-            <Footer></Footer>
+           
         </div>
     )
 }
