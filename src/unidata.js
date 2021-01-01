@@ -148,7 +148,7 @@ const unidata = {
             name : "AUST",
             header: "AUST CGPA calculator",
             description : "Ahsanullah University of Science & Technology- CGPA Calculator",
-            logo: "https://upload.wikimedia.org/wikipedia/commons/5/51/LogoAust.jpg",
+            logo: "https://nu-edu-bd.net/wp-content/uploads/2018/03/Ahsanullah-University-of-Sc.jpg",
             points:[4,3.75,3.5,3.25,3,2.75,2.5,2.25,2.0,0],
             grades: ['A+ (100-80)',
                      'A (80-75)',
