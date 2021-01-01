@@ -142,7 +142,26 @@ const unidata = {
                      
 
             ]
-        }
+        },
+        {
+            _name: "aust",
+            name : "AUST",
+            header: "AUST CGPA calculator",
+            description : "Ahsanullah University of Science & Technology- CGPA Calculator",
+            logo: "https://upload.wikimedia.org/wikipedia/commons/5/51/LogoAust.jpg",
+            points:[4,3.75,3.5,3.25,3,2.75,2.5,2.25,2.0,0],
+            grades: ['A+ (100-80)',
+                     'A (80-75)',
+                     'A- (74-70)',
+                     'B+ (69-65)',
+                     'B (65-60)',
+                     'B- (59-55)',
+                     'C+ (54-50)',
+                     'C (49-45)',
+                     'D (44-40)',
+                     'F (39-0)'
+            ]
+        },
     ]
 }
 export default unidata;
