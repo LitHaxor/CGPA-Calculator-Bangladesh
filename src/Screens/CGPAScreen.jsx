@@ -1,7 +1,5 @@
 import React from 'react';
-
 import Jumbo from '../Components/Jambo';
-
 import Calc from '../tools/CalcApp';
 import unidata from '../unidata';
 const CGPAScreen = (props) =>

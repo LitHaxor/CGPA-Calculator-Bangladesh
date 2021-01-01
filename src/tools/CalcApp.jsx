@@ -167,11 +167,11 @@ class CalcApp extends React.Component {
                    <div className="card-body">
                       <div className="row">
                           <div className="input-group col" >
-                              <div className="input-group-prepend"><span className="input-group-text ">CGPA</span></div><input className="form-control col cgpa" type="text" name="CGPA"  placeholder="cgpa"/>
+                              <div className="input-group-prepend"><span className="input-group-text ">CGPA</span></div><input className="form-control col cgpa" type="text" name="CGPA"  placeholder="Enter CGPA"/>
                               <div className="input-group-append"></div>
                           </div>
                           <div className="input-group col" >
-                              <div className="input-group-prepend"><span className="input-group-text ">Credit</span></div><input className="form-control col tcredit" type="text" name="credit"  placeholder="credit"/>
+                              <div className="input-group-prepend"><span className="input-group-text ">Credit</span></div><input className="form-control col tcredit" type="text" name="credit"  placeholder="Completed Credits"/>
                               <div className="input-group-append"></div>
                           </div>
                       </div>
@@ -182,10 +182,10 @@ class CalcApp extends React.Component {
                        <div className="card-body">
                           <div className="inner-box">
                           <div className="form-group block row" >
-                                  <div className="input-group-prepend"><span className="input-group-text d-none d-md-block" >Course</span></div><input className="form-control course col-3" type="text" placeholder="course"/>
+                                  <div className="input-group-prepend"><span className="input-group-text d-none d-md-block" >Course</span></div><input className="form-control course col-3" type="text" placeholder="Course Name"/>
                                   <div className="input-group-append"></div>
                                   
-                                  <div className="input-group-prepend"><span className="input-group-text" >Credit</span></div><input className="form-control units col-3"  type="text"/>
+                                  <div className="input-group-prepend"><span className="input-group-text" >Credit</span></div><input className="form-control units col-3"  type="text" placeholder="Credit"/>
                                   <div className="input-group-append"></div>
                              
                               <select className="grade-select badge-danger col-3" >
