@@ -603,8 +603,8 @@ class CompareApp extends React.Component
                         <button className="btn btnc btn-primary">+ Add Course</button>
                     </div>
                     <div className="card-body">
-                       <div className="row">
-                            <div className="col-3">
+                       <div className="row ">
+                            <div className="col-4 col-md-3">
                                 <div className="card">
                                     <div className="card-header bg-primary"><h5 className="text-white text-center" id="universtyname0">Select University 1</h5></div>
                                     <div className="card-body">
@@ -613,7 +613,7 @@ class CompareApp extends React.Component
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-3">
+                            <div className="col-4 col-md-3">
                                 <div className="card">
                                     <div className="card-header bg-success"><h5 className="text-white text-center" id="universtyname0">Completed Credit</h5></div>
                                     <div className="card-body">
@@ -622,7 +622,7 @@ class CompareApp extends React.Component
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-3">
+                            <div className="col-4 col-md-3">
                                 <div className="card">
                                     <div className="card-header bg-info"><h5 className="text-white text-center" id="universtyname1">Select University 2</h5></div>
                                     <div className="card-body">
