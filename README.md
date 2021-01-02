@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Getting started with CGPA Calculator Bangladesh
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7f4fd698-e85a-44f6-b1ad-1781b92f12b7/deploy-status)](https://app.netlify.com/sites/getmycgpa/deploys)
+An Opensource tools for calculating and evaluating your semester performance and Culmulative Grade Point Average (CGPA).
+[TOC]
+Link : <a href="https://www.getcgpa.lithaxor.tech/">https://www.getcgpa.lithaxor.tech</a> <br> 
+## Screenshots
+### Home Page
+<a href="https://ibb.co/Gs125KX"><img src="https://i.ibb.co/n3VcLHT/image.png" alt="image" border="0" /></a>
+### CGPA Calculator
+<a href="https://ibb.co/bLbk8n1"><img src="https://i.ibb.co/vmXSK81/screencapture-getcgpa-lithaxor-tech-cgpa-aiub-2021-01-02-14-16-39.png" alt="image" border="0" /></a>
+### Performance Statistics 
+Shows Maximum CGPA you could get in the semester
+<a href="https://ibb.co/cDQ00ym"><img src="https://i.ibb.co/jgDmm8p/image.png" alt="image" border="0" /></a>
+### Compare CGPA With Other University
+<a href="https://ibb.co/JkXCfDJ"><img src="https://i.ibb.co/kcYMRNC/screencapture-getcgpa-lithaxor-tech-compare-2021-01-02-14-18-15.png" alt="image" border="0" /></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Instruction
+#### Calculate GPA of Current Semester
+* Don't enter CGPA / Completed Credit under Completed Semester
+<a href="https://ibb.co/JCHFkQz"><img src="https://i.ibb.co/25dYKNj/image.png" alt="image" border="0" /></a>
 
-## Available Scripts
+* Enter course name(optional), credit of the course , Grade you got.
+<a href="https://ibb.co/TwksXBT"><img src="https://i.ibb.co/0ncxNjX/image.png" alt="image" border="0" /></a>
 
-In the project directory, you can run:
+* Press + add course  if you have.
+* Evaluate result
+<a href="https://ibb.co/BNNzj44"><img src="https://i.ibb.co/3zzrWff/image.png" alt="image" border="0" /></a>
 
-### `yarn start`
+### Calculate CGPA Current + All semester
+* Enter Completed semester's CGPA
+* Enter Completed Credit
+* Enter Current semester Course Name( Optional)
+* Enter Course Credit
+* Enter Course Grade
+* Add more course if nessesary 
+* Evaluate your result
+### Compare GPA with other university
+* Enter University 1
+* Enter Univesity 2
+* Enter Credit 
+* Enter marks
+* Add more course if neccesary 
+* Evaluate grading
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+##  University List
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+| University                                           | CGPA                                                                 |                  Cost |
+|------------------------------------------------------|----------------------------------------------------------------------|-----------------------|
+| American International Universtiy -Bangladesh AIUB   | <a href="https://www.getcgpa.lithaxor.tech/cgpa/aiub">AIUB CGPA</a> | coming soon |
+| Ahsanullah University of Science and Technology | [AUST CGPA](https://www.getcgpa.lithaxor.tech/cgpa/aust) | Coming soon |
+| BRAC University | [BRACU CGPA](https://www.getcgpa.lithaxor.tech/cgpa/bracu) | Coming soon|
+|Deffodils International University | [DIU CGPA](https://www.getcgpa.lithaxor.tech/cgpa/diu)|Coming Soon |
+East West University | [EWU CGPA](https://www.getcgpa.lithaxor.tech/cgpa/ewu) | Coming Soon
+| North South University | [NSU CGPA](https://www.getcgpa.lithaxor.tech/cgpa/nsu)| Coming Soon |
+| Independent University, Bangladesh | [IUB CGPA](https://www.getcgpa.lithaxor.tech/cgpa/iub) | Coming Soon |
+| United International University  | [UIU CGPA](https://www.getcgpa.lithaxor.tech/cgpa/uiu) | Coming Soon |
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contribution
+Anyone can easily contribute to this project. 
+* Fork this project
+* Inside  the unidata.js file
+<a href="https://ibb.co/fqpjDY9"><img src="https://i.ibb.co/0mMHsjK/image.png" alt="image" border="0" /></a>
+* add your universiy JSON data.
+* Don't modify other universtiy data if neccesary then do.
+*  Then sumbit pull request, I'll review it.
