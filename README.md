@@ -1,5 +1,5 @@
 # Getting started with CGPA Calculator Bangladesh
-[![Netlify Status](https://api.netlify.com/api/v1/badges/7f4fd698-e85a-44f6-b1ad-1781b92f12b7/deploy-status)](https://app.netlify.com/sites/getmycgpa/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7f4fd698-e85a-44f6-b1ad-1781b92f12b7/deploy-status)](https://app.netlify.com/sites/getmycgpa/deploys)<br>
 An Opensource tools for calculating and evaluating your semester performance and Culmulative Grade Point Average (CGPA).
 [TOC]
 Link : <a href="https://www.getcgpa.lithaxor.tech/">https://www.getcgpa.lithaxor.tech</a> <br> 
@@ -58,7 +58,7 @@ East West University | [EWU CGPA](https://www.getcgpa.lithaxor.tech/cgpa/ewu) | 
 ## Contribution
 Anyone can easily contribute to this project. 
 * Fork this project
-* Inside  the unidata.js file
+* Inside  the unidata.js file<br>
 <a href="https://ibb.co/fqpjDY9"><img src="https://i.ibb.co/0mMHsjK/image.png" alt="image" border="0" /></a>
 * add your universiy JSON data.
 * Don't modify other universtiy data if neccesary then do.
