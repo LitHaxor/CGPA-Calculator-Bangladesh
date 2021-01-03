@@ -1,6 +1,5 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  box-sizing: border-box;
 }
 .frosted{
   background-color: rgba(255, 255, 255, 0.733);  

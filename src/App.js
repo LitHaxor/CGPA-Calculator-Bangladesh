@@ -15,7 +15,7 @@ function App() {
       <main>
         <Route path='/' component={HomeScreen} exact/>
         <Route path='/compare' component={CompareScreen}/>
-        <Route path='/cgpa/:name' component ={CGPAScreen}/>
+        <Route path='/:name' component ={CGPAScreen}/>
       </main>
       <Footer/>
     </div>

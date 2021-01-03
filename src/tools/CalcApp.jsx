@@ -181,7 +181,7 @@ class CalcApp extends React.Component {
                        <div className="card-header bg-info"> <h3 className="text-white">Current Semester</h3> </div>
                        <div className="card-body">
                           <div className="inner-box">
-                          <div className="form-group block row" >
+                          <div className="form-group block row " >
                                   <div className="input-group-prepend"><span className="input-group-text d-none d-md-block" >Course</span></div><input className="form-control course col-3" type="text" placeholder="Course Name"/>
                                   <div className="input-group-append"></div>
                                   
