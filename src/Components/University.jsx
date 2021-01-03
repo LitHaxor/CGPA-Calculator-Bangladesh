@@ -1,12 +1,12 @@
 import React from 'react';
 
-
 const University = (props) =>
 {
     const {university} = props;
     return (
-       
+            
             <div key={university._name} className="col-md-2 col-sm-4 col-6 card-space">
+                
                 <div className="card">
                     <div className="card-body max-he">
                         <img src={university.logo} alt="" className="img-fluid mx-auto d-block"/>
