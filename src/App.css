@@ -43,3 +43,10 @@
     height: 300px;
   }
 }
+.flex-pic{
+  display: flex;
+  justify-content: right;
+}
+.flex-pic .flex-img{
+  width: 50%;
+}
