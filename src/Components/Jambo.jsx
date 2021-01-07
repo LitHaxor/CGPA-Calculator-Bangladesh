@@ -12,7 +12,7 @@ const Jambo = (props) => {
                 <a href="/compare" class="btn btn-info ">Compare CGPA</a>
             </div>
             <div className="col-6">
-              <img src="./assets/pics/undraw_percentages_0rur.svg" alt="" height="400px" className="flex-img img-fluid justify-content-center align-items-flex-end"/>          
+              <img src="./assets/pics/undraw_Calculator_0evy.svg" alt="" height="400px" className="flex-img img-fluid justify-content-center align-items-flex-end"/>          
             </div>
           </div>
         </div>
