@@ -10,8 +10,7 @@ import unidata from '../unidata';
 const HomeScreen = () =>
 {
     return(
-        <div>
-      
+        <div>      
             <Jumbo header ={data.info.header} message = {data.info.message}/>
             <div className="container">
                 <div className="university-items">
