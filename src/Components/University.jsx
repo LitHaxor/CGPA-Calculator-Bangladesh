@@ -4,7 +4,6 @@ const University = (props) =>
 {
     const {university} = props;
     return (
-            
             <div key={university._name} className="col-md-2 col-sm-4 col-6 card-space">
                 
                 <div className="card">
