@@ -86,7 +86,7 @@ const unidata = {
             name : "DIU",
             header: "DIU CGPA calculator",
             description : "Deffodils International University CGPA Calculator",
-            logo: "https://scontent.fdac16-1.fna.fbcdn.net/v/t1.0-9/107095282_3260554454170074_3447416116421837976_o.jpg?_nc_cat=107&ccb=2&_nc_sid=09cbfe&_nc_ohc=JSOISSuB6WMAX_EhFvq&_nc_ht=scontent.fdac16-1.fna&oh=4bf90942d82d6cdc05ca27d5f4cfea7c&oe=600F7159",
+            logo: "http://mct.daffodilvarsity.edu.bd/images/diuIcon.png",
             points:[4,3.75,3.5,3.25,3,2.75,2.5,2.25,2.0,0],
             grades: ['A+ (100-80)',
                      'A (80-75)',
