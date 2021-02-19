@@ -46,14 +46,14 @@ Shows Maximum CGPA you could get in the semester
 
 | University                                           | CGPA                                                                 |                  Cost |
 |------------------------------------------------------|----------------------------------------------------------------------|-----------------------|
-| American International Universtiy -Bangladesh AIUB   | <a href="https://www.getcgpa.lithaxor.tech/cgpa/aiub">AIUB CGPA</a> | coming soon |
-| Ahsanullah University of Science and Technology | [AUST CGPA](https://www.getcgpa.lithaxor.tech/cgpa/aust) | Coming soon |
-| BRAC University | [BRACU CGPA](https://www.getcgpa.lithaxor.tech/cgpa/bracu) | Coming soon|
-|Deffodils International University | [DIU CGPA](https://www.getcgpa.lithaxor.tech/cgpa/diu)|Coming Soon |
-East West University | [EWU CGPA](https://www.getcgpa.lithaxor.tech/cgpa/ewu) | Coming Soon
-| North South University | [NSU CGPA](https://www.getcgpa.lithaxor.tech/cgpa/nsu)| Coming Soon |
-| Independent University, Bangladesh | [IUB CGPA](https://www.getcgpa.lithaxor.tech/cgpa/iub) | Coming Soon |
-| United International University  | [UIU CGPA](https://www.getcgpa.lithaxor.tech/cgpa/uiu) | Coming Soon |
+| American International Universtiy -Bangladesh AIUB   | <a href="https://www.getcgpa.lithaxor.tech/aiub">AIUB CGPA</a> | coming soon |
+| Ahsanullah University of Science and Technology | [AUST CGPA](https://www.getcgpa.lithaxor.tech/aust) | Coming soon |
+| BRAC University | [BRACU CGPA](https://www.getcgpa.lithaxor.tech/bracu) | Coming soon|
+|Deffodils International University | [DIU CGPA](https://www.getcgpa.lithaxor.tech/diu)|Coming Soon |
+East West University | [EWU CGPA](https://www.getcgpa.lithaxor.tech/ewu) | Coming Soon
+| North South University | [NSU CGPA](https://www.getcgpa.lithaxor.tech/nsu)| Coming Soon |
+| Independent University, Bangladesh | [IUB CGPA](https://www.getcgpa.lithaxor.tech/iub) | Coming Soon |
+| United International University  | [UIU CGPA](https://www.getcgpa.lithaxor.tech/uiu) | Coming Soon |
 
 ## Contribution
 Anyone can easily contribute to this project. 
