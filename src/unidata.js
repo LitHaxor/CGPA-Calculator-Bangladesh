@@ -126,21 +126,17 @@ const unidata = {
             header: "EWU CGPA calculator",
             description: "East West University CGPA Calculator",
             logo: "https://seeklogo.com/images/E/east-west-university-ewu-logo-C27BC3985E-seeklogo.com.png",
-            points:[4,4,3.7,3.3,3,2.7,2.3,2.0,1.7,1.3,1.0,0],
-            grades: ['A+ (100-97)',
-                     'A (96-90)',
-                     'A- (89-87)',
-                     'B+ (86-83)',
-                     'B (82-80)',
-                     'B- (79-77)',
-                     'C+ (76-73)',
-                     'C (72-70)',
-                     'C- (69-67)',
-                     'D+ (66-63)',
-                     'D (60-62)',
-                     'F (59-0)',
-                     
-
+            points:[4,3.75,3.5,3.25,3.0,2.75,2.5,2.25,2.0,0],
+            grades: ['A+ (100-80)',
+                     'A (79-75)',
+                     'A- (74-70)',
+                     'B+ (69-65)',
+                     'B (64-60)',
+                     'B- (59-55)',
+                     'C+ (54-50)',
+                     'C (49-45)',
+                     'D (44-40)',
+                     'F (39-0)'
             ]
         },
         {
